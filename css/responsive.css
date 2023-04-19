@@ -1,0 +1,491 @@
+@media (min-width: 1025px){
+	
+	
+	/*CSS FOR FILL THE SPACE BY MENU ITEMS ON DESKTOP & LAPTOPS*/
+	
+	.main-navigation ul {
+		justify-content: space-between;
+		padding-right: 45px;
+	}
+	
+	.main-navigation a {
+		padding: 8px 16px;
+		white-space: nowrap;
+	}
+
+}
+
+@media (max-width: 1024px) {
+	
+    .body-wrapper{
+        width: 100%;
+    }
+    
+    /**
+    * CSS FOR TOP BAR
+    */
+    .toggle>a,
+    .toggle_show>div,
+    .toggle_show>span {
+        display: block !important;
+        width: 100%;
+        float: unset;
+    }
+
+    .toggle>div,
+    .toggle>span {
+        display: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    span.datte a {
+        display: block;
+        margin: 0
+    }
+
+    span.datte>a:before,
+    span.datte>a:after {
+        content: unset;
+    }
+
+    span.rrtrang,
+    span.rtrang,
+    span.trane {
+        display: none;
+    }
+
+    .tul li {
+        display: block;
+    }
+
+    /**
+     * CSS FOR TOP LOGO AND AD SECTION
+     */
+    .logo-ad-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .custom-logo-link {
+        max-width: 100%;
+        display: block;
+    }
+
+    a.custom-logo-link img {
+        width: 100%;
+    }
+
+    /**
+     * CSS FOR MAIN NAVIGATION / MENU
+     */
+    a.menu-icon-main,
+    .menu_show {
+        display: block !important;
+    }
+
+    .menu-menu-1-container {
+        display: none;
+    }
+
+    .main-navigation ul {
+        display: block;
+    }
+
+    .menu-item-has-children>a {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navigation ul ul {
+        display: none;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .main-navigation ul ul a {
+        width: 100%;
+    }
+
+    /**
+     * CSS 1 - Breaker News Widget
+     */
+    .esnpost h2 {
+        font-size: 32px;
+    }
+
+    .three-thumbs h2 {
+        font-size: 16px;
+    }
+
+    .esnpost p {
+        font-size: 16px;
+    }
+    
+    .esnpost img {
+        max-width: 90%;
+    }
+
+    .four_big_thumb_wrap {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /**
+     * CSS FOR 2 - Multitab News Widget
+     */
+     .multitab_news_widget .main-content {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .side-titles {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        text-align: center;
+        margin: 0px;
+     }
+
+     .tab-posts {
+        height: 100%;
+     }
+
+     .tab-posts .pd10>a:first-child {
+         height: 100%;
+         line-height: 0;
+     }
+
+     /**
+     * CSS FOR SITE FOOTER
+     */
+
+     a.custom-logo-link img {
+         width: 100%;
+     }
+
+     .site-info {
+         display: block;
+         text-align: center;
+     }
+
+     .site-info p {
+         text-align: center;
+     }
+
+     p.maintain {
+         transform: none;
+         padding: 0;
+     }
+
+     p.maintain span {
+         transform: none;
+     }
+
+     p.copy {
+         transform: none;
+     }
+
+     p.copy span {
+         transform: none;
+     }
+
+
+    /**
+     * CSS FOR NEWS / POST PAGE
+     */
+    .single-post h1.entry-title {
+        font-size: 28px;
+    }
+	
+	/**
+     * CSS FOR NEWS / POST PAGE
+     */
+	.entry-content {
+		font-size: 22px;
+		line-height: 1.6;
+	}
+	
+
+	/*
+	 * STYLES FOR ISSUE SEARCH/FILTER BOX
+	 */
+
+	li.search-box {
+		display: flex;
+		flex-direction: column;
+	}
+	
+
+}
+
+@media (max-width: 768px) {
+
+    .site-branding{
+        display: none;
+    }
+    .ok-title-info{
+        display: none;
+    }
+	.esn_road_block_ad .esn-ainfo-widget {
+		width: 100%;
+	}
+
+    .categoryTopSection{
+        display: none!important;
+    }
+
+    a.custom-logo-link img {
+    width: 25%;
+   }
+	
+    /**
+     * CSS FOR TWIN AD WIDGET
+     */
+    .twin-ad-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    /**
+     * CSS 1 - Breaker News Widget
+     */
+    .three-thumbs h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .three-thumbs .pd20 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three-thumbs-wrap {
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .esnpost.three-thumbs img {
+        max-width: 100%;
+    }
+
+    /**
+     * CSS FOR SECTION DIVISION
+     */
+    .multi-section-divison {
+        display: block;
+    }
+
+    .left-sec-shadow {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right-sec-shadow {
+        width: 100%;
+        margin: 0;
+    }
+
+    .first-post-big>a {
+        height: auto;
+    }
+
+    /**
+     * CSS FOR 4 - Four Small Thumb News Widget
+     */
+    
+    .four-thumbs-small>a {
+        height: auto;
+    }
+
+    .four-thumbs-small a img {
+        display: block;
+        min-height: 210px;
+    }
+
+    /**
+     * CSS FOR 8 - Three Column News Widget
+     */
+    .multi-section-divison-three {
+        grid-template-columns: 1fr;
+    }
+
+    .three-col-big>a {
+        height: auto;
+    }
+
+    /**
+     * CSS FOR 8 - Video News Widget
+     */
+    .video-thumb-big>a {
+        height: auto;
+    }
+
+    .video-thumb-small>a {
+        height: auto;
+    }
+
+    /**
+     * CSS FOR 6 - Two Thumbs Only News Widget
+     */
+
+    .two-thumbs a {
+        height: auto;
+    }
+    /**
+     * CSS FOR SITE FOOTER
+     */
+    .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    /**
+     * CSS FOR NEWS / POST PAGE
+     */
+    .single-post .site-content .news-sidebar-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .author-info-section {
+        grid-template-columns: 1fr;
+    }
+
+    .post-info p:last-child {
+        border: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    /**
+     * CSS FOR CATEGORY / ARCHIVE PAGE / SEARCH PAGE
+     */
+    .archive .site-main,
+    .search .site-main,
+    .single-authors .site-main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .archive .page-header,
+    .search .page-header,
+    .single-authors .page-header {
+        grid-column: span 2;
+    }
+
+    .wp-pagenavi {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 425px) {
+
+   a.custom-logo-link img {
+    width: 25%;
+   }
+    .categoryTopSection{
+        display: none!important;
+    }
+    
+    /**
+     * CSS 1 - Breaker News Widget
+     */
+    .three-thumbs-wrap {
+        flex-direction: column;
+    }
+
+    .three-thumbs .pd20 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .three-thumbs h2 {
+        text-align: left;
+    }
+
+    /**
+     * Register 3 - Four Big Thumb & Side News Widget
+     */
+
+    .four-thumbs>a {
+        height: auto;
+    }
+
+    /**
+     * CSS FOR  7 - Bullet Date News Widget
+     */
+    .tab-news-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    /**
+     * CSS FOR 5 - One Big Thumb Side Small Thumb & Side News Widget
+     */
+    .one-big-side-small-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    /**
+     * CSS FOR 9 - Video News Widget
+     */
+    .video_news_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-small-thumb-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    /**
+     * CSS FOR POST / NEWS PAGE
+     */
+    .author-share-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .below-thumb .author-block .author-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .author-block {
+        width: 100%;
+    }
+
+    .social-share-wrapper {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    /**
+     * CSS FOR CATEGORY / ARCHIVE PAGE / SEARCH PAGE
+     */
+     .archive .site-main article .post-thumbnail,
+     .search .site-main article .post-thumbnail,
+     .single-authors .site-main article .post-thumbnail {
+         height: auto;
+     }
+     
+     .archive .page-header,
+     .search .page-header,
+     .single-authors .page-header {
+         grid-column: unset;
+     }
+
+    .archive .site-main,
+    .search .site-main,
+    .single-authors .site-main {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,80 @@
+.ok-title-info.flx {
+    display: inline-flex;
+}
+.ok-bises .ok-title-info>div {
+    margin: 0 10px;
+}
+.ok-bises .ok-news-author .author-icon {
+    height: 35px;
+    width: 35px;
+}
+.ok-news-author span{
+    margin-right: 10px;
+}
+
+.ok-news-post-hour {
+    margin-top: 9px;
+}
+
+.ok-news-author .author-icon>img {
+    height: 35px;
+    width: 100%;
+    margin-top: 5px;
+    object-fit: cover;
+}
+.ok-news-author span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ok-news-post-hour>img{
+    width: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.ok-news-post-hour>span, .ok-news-comment>span {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.leftImage{
+    width: 600px;
+    height: 300px;
+}
+.leftImage img{
+    width: 100%;
+    height: 100%;
+}
+.myRigntTitle{
+     width: 600px;
+    margin: 10px;
+}
+.myRigntTitle a{
+    font-size: 40px;
+    color: #005c2b!important;
+}
+
+
+
+h1.entry-title {
+    font-size: 36px;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 14px 0 0;
+    color: #196230;
+    padding: 10px;
+}
+
+.newsDetails {
+    width: 100%!important;
+    height: auto;
+}
+
+
+.cover-news-wrap.myDetailsPage p {
+     height: auto!important;
+    text-align: justify;
+    font-size: 22px;
+}

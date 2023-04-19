@@ -1,0 +1,167 @@
+/**
+* CSS for Footer Section
+**/
+
+.notice {
+    padding: 10px;
+    background: #b1d3c1;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-wrap {
+    background: #eaf0ed;
+    border-top: solid 3px var(--scolor);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 0;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-wrap ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo ul li {
+    list-style: none;
+}
+
+.footer-logo ul li a {
+    color: #fff;
+    display: flex;
+    width: 40px;
+    height: 35px;
+    background: #0b9444;
+    text-align: center;
+    font-size: 22px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-logo .custom-logo-link {
+    max-width: 85%;
+}
+
+/* CSS for Footer Content Section*/
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 0.4fr;
+    color: #000;
+    line-height: 1.7;
+}
+
+.footer-info .widget_custom_html:first-of-type {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer-widget-title {
+    color: #0c5096;
+    margin-bottom: 15px;
+    border-bottom: solid 2px var(--scolor);
+    margin-right: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+span.strong {
+    font-weight: 600;
+    color: #000;
+}
+
+.site-footer .content-links a {
+    display: block;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.site-footer .content-links a:hover {
+    text-decoration: underline;
+}
+
+/**
+* CSS for Footer Bottom Bar Credit Section
+**/
+.site-info {
+    display: flex;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+    border-top: #000 solid 2px;
+}
+
+p.trademark a {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.site-info p,
+.site-info a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p.copy {
+    background: var(--scolor);
+    transform: skew(-40deg, 0deg);
+    -ms-transform: skew(-40deg, 0deg);
+    -webkit-transform: skew(-40deg, 0deg);
+    padding-left: 30px !important;
+    margin-left: -20px;
+}
+
+p.copy span {
+    display: inline-block;
+    transform: skew(40deg, 0deg);
+    -ms-transform: skew(40deg, 0deg);
+    -webkit-transform: skew(40deg, 0deg);
+}
+
+p.maintain {
+    background: var(--pcolor);
+    text-align: right;
+    transform: skew(-40deg, 0deg);
+    -ms-transform: skew(-40deg, 0deg);
+    -webkit-transform: skew(-40deg, 0deg);
+    padding-right: 30px !important;
+    margin-right: -20px;
+}
+
+p.maintain span {
+    display: inline-block;
+    transform: skew(40deg, 0deg);
+    -ms-transform: skew(40deg, 0deg);
+    -webkit-transform: skew(40deg, 0deg);
+    font-weight: 100;
+}
+
+.site-info p {
+    padding: 2px 0;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+p.trademark {
+    text-align: center;
+}
+
+img.tiktok-icon {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
